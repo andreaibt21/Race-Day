@@ -1,6 +1,6 @@
 let raceNumber = Math.floor(Math.random() * 1000);
-const runnerRegEarly = false;
-const runnerAge = 18; 
+const runnerRegEarly = false;  //change this to true if you want to see another result 
+const runnerAge = 18;          //change this to your age to see your schedule 
 
 if (runnerAge>18 && runnerRegEarly ){
   raceNumber += 1000
